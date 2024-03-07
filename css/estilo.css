@@ -3,6 +3,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body{
+    margin: 0;
+    /* para remover a margem padrão, para quando adicionar cor não fique uma faicha branca no topo*/
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -11,6 +15,8 @@ header{
     margin: 0 auto;
     align-items: center;
     /* centraliza os elementos filho na vertical */
+    margin-top: 5px;
+    /* colocou uma margem dentro do elemento para descolar o logo do topo da pagina */
 
 }
 
@@ -25,14 +31,17 @@ header > img{
     gap: 10px;
     list-style: none;
     /* remove o marcador da lista */
+
 }
 
 #menu a{
     text-decoration: none;
     /* remove o marcador do link */
-    color: black;
+    color: #000;
     /* cor do texto */
     padding: 8px 18px;
     /* aumenta a area do elemento criando como se foce um botão (altura e largura) */
+    font-size: 1.2rem;
+    /* define o tamanho da fonte mantendo uma proporção conforme o pamanho do monitor (fonte responsivel) */
 
 }
