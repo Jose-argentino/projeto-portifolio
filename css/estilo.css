@@ -6,12 +6,14 @@
 body{
     margin: 0;
     /* para remover a margem padrão, para quando adicionar cor não fique uma faicha branca no topo*/
+    /* em todo site tem de fazer */
 }
 header{
     display: flex;
     justify-content: space-between;
     /* ele coloca cada elemento em uma estremidade */
     max-width: 1200px;
+    /* controla a largura maxima que pode ter no zoom para não perder a simetria */
     margin: 0 auto;
     align-items: center;
     /* centraliza os elementos filho na vertical */
