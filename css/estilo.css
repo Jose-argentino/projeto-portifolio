@@ -9,6 +9,8 @@ header{
     /* ele coloca cada elemento em uma estremidade */
     max-width: 1200px;
     margin: 0 auto;
+    align-items: center;
+    /* centraliza os elementos filho na vertical */
 
 }
 
@@ -21,5 +23,16 @@ header > img{
     /* flex-wrap: wrap; */
     /* para não quebrar a linha */
     gap: 10px;
-    
+    list-style: none;
+    /* remove o marcador da lista */
+}
+
+#menu a{
+    text-decoration: none;
+    /* remove o marcador do link */
+    color: black;
+    /* cor do texto */
+    padding: 8px 18px;
+    /* aumenta a area do elemento criando como se foce um botão (altura e largura) */
+
 }
