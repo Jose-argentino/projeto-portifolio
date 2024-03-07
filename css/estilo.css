@@ -4,15 +4,22 @@
 }
 
 header{
-    width: 1200px;
-    height: 80px;
-    background: #c5c7b2;
-    margin: 0 auto;
     display: flex;
-    /* flex-direction: row; */
+    justify-content: space-between;
+    /* ele coloca cada elemento em uma estremidade */
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+header > img{
+    width: 100px;
+}
+
+#menu{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* para não quebrar a linha */
     gap: 10px;
-    /* todo elemento vai ter um espaço entre eles*/
-    /* align-items: center; alinha no centro da pagina*/
-    flex-wrap: wrap;
-    /* ele cria uma quebra de quantidades de linha por linha */
+    
 }
