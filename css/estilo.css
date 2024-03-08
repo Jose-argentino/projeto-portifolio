@@ -42,7 +42,9 @@ header > img{
     /* define o tamanho da fonte mantendo uma proporção conforme o pamanho do monitor (fonte responsivel) */
 }
 
-main > div id="perfil">{
+
+
+main > #perfil>{
     disolay = frex;
     max-winth: 1200 ;  
     margin: 0 audio;                                                                                          
@@ -67,7 +69,7 @@ main > div id="perfil">{
 }
 
 #perfil-dados> p{
-    margim-top: 0px;
-    color: #6e6e6e;
+    margin-top: 0px;
+    color: #6e6d6d;
     
 }
