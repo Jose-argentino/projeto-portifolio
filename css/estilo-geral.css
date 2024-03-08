@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+    /* para remover a margem padrão, para quando adicionar cor não fique uma faicha branca no topo*/
+    /* em todo site tem de fazer */
+}
