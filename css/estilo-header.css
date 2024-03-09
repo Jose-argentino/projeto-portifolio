@@ -16,6 +16,7 @@ header{
     /* centraliza os elementos filho na vertical */
     margin-top: 5px;
     /* colocou uma margem dentro do elemento para descolar o logo do topo da pagina */
+    background-color: #797474;
 }
 
 header > img{
