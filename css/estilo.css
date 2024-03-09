@@ -1,75 +1,35 @@
-header{
+#perfil{
     display: flex;
     /* 
-    elementos com medidas iguais em altura e tamanho  ou quando vai ser para uso prioritario em dispositivo movel usa se  display grid
+     quando os elementos tem altura e  ou largura diferente usamos display flex.
+
+     elementos com medidas iguais em altura e tamanho  ou quando vai ser para uso prioritario em dispositivo movel usa se  display grid
      ele define a largura conforme o conteudo e o tamnaho da tela
      */
-    /* já quando os elementos tem altura e  ou largura diferente usamos display flex */
-    /* eles são comprementares */
-
-    justify-content: space-between;
-    /* ele coloca cada elemento em uma estremidade */
+     /* eles são comprementares */
+     
+    max-width: 1200px;  
     max-width: 1200px;
-    /* controla a largura maxima que pode ter no zoom para não perder a simetria */
-    margin: 0 auto;
+    /* controla a largura maxima que pode ter no zoom para não perder a simetria */                                                                                        
+    height: 80vh;
+    gap:110px;
     align-items: center;
     /* centraliza os elementos filho na vertical */
-    margin-top: 5px;
-    /* colocou uma margem dentro do elemento para descolar o logo do topo da pagina */
-}
-
-header > img{
-    width: 100px;
-}
-
-#menu{
-    display: flex;
-    /* flex-wrap: wrap; */
-    /* para não quebrar a linha */
-    gap: 10px;
-    list-style: none;
-    /* remove o marcador da lista */
-}
-
-#menu a{
-    text-decoration: none;
-    /* remove o marcador do link */
-    color: #000;
-    /* cor do texto */
-    padding: 8px 18px;
-    /* aumenta a area do elemento criando como se foce um botão (altura e largura) */
-    font-size: 1.2rem;
-    /* define o tamanho da fonte mantendo uma proporção conforme o pamanho do monitor (fonte responsivel) */
-}
-
-
-
-main > #perfil>{
-    disolay = frex;
-    max-winth: 1200 ;  
-    margin: 0 audio;                                                                                          
-    padding: 35px 20px;
-    gap:110px
-    align-centes: center;
-
 }
 
 #perfil-dados >h1 {
     font-size: 4rem;
     line-height: 1.4;
-    letter-spacing: 2px;
-    /* espaçãmento 1.4 */
+    font-weight: 700;
+    font-style: normal;
 }
 
 #perfil-dados >h2 {
-    font-size: 4rem;
-    line-height: 1.4;
-    letter-spacing: 2px;
-    /* espaçãmento 1.4 */
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 #perfil-dados> p{
     margin-top: 0px;
     color: #6e6d6d;
-    
 }
