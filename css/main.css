@@ -1,4 +1,4 @@
-#perfil{
+.perfil{
     display: flex;
     /* 
      quando os elementos tem altura e  ou largura diferente usamos display flex.
@@ -15,6 +15,7 @@
     gap:110px;
     align-items: center;
     /* centraliza os elementos filho na vertical */
+    margin: 0 auto;
 }
 
 #perfil-dados >h1 {
@@ -32,4 +33,24 @@
 #perfil-dados> p{
     margin-top: 0px;
     color: #6e6d6d;
+}
+
+
+
+/* sessao projeto */
+.projetos{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 110px;
+}
+
+.projetos h2{
+    font-size: 8rem;
+    max-width: 10ch;
+    color: #202d73;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    
 }
