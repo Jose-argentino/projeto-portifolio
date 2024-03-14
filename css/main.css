@@ -1,5 +1,6 @@
 .perfil{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     /* 
      quando os elementos tem altura e  ou largura diferente usamos display flex.
 
@@ -40,7 +41,7 @@
 /* sessao projeto */
 .projetos{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 2fr;
     max-width: 1200px;
     margin: 0 auto;
     gap: 110px;
@@ -66,7 +67,7 @@
 }
 
 .projeto-texto-principal{
-    line-height: 1.7;
+    line-height: 1.9;
     font-size: 1.3rem;
     margin-bottom: 4rem;
 }
@@ -116,4 +117,39 @@
     border-radius: 4px;
     padding: 4px 8px;
     line-height: 1.4;
+}
+
+/* sessão projeto final */
+
+#cursos{
+    background: #023e73;
+    /* height: 300px; */
+    margin-top: 50px;
+}
+
+#cursos-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 110px;
+    /* background: red; */
+
+}
+
+#cursos-grid h2{
+  color: #fff;
+  font-size: 8rem;
+  word-break: break-all;
+  max-width: 4ch;
+  /* ch = caracter */
+  text-transform: uppercase;
+}
+
+#cursos-geral{
+
+}
+
+#projeto-texto-principal{
+
 }
