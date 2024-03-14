@@ -44,6 +44,7 @@
     max-width: 1200px;
     margin: 0 auto;
     gap: 110px;
+    align-items: center;
 }
 
 .projetos h2{
@@ -67,6 +68,7 @@
 .projeto-texto-principal{
     line-height: 1.7;
     font-size: 1.3rem;
+    margin-bottom: 4rem;
 }
 
 .projetos-lista{
@@ -78,12 +80,12 @@
     /* cada coluna tem 1 fração */
     grid-template-columns: repeat(2,1fr);
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px;
     /* distancia das bordas */
     gap: 20px;
     /* espaçamento dos elementos */
-    margin-top: 40px;
-    border-radius: 4px;
+    /* border-radius: 4px; */
+    margin-bottom: 1rem;
 }
 
 .projetos-lista h3{
@@ -98,6 +100,14 @@
     margin: 0px;
     display: flex;
     gap: 10px;
+    align-items: start;
+    flex-wrap: wrap;
+    /* se os elementos passarem da borda, ai nao reduz a outra coluna, ele vai quebrar e ir para a linha de baixo */
+    align-items: center;
+    /* align-items: start; */
+    /* alinha no inicio do item */
+    /* align-items: end; */
+    /* alinha no final do item */
 }
 
 .projetos-tags li{
@@ -106,5 +116,4 @@
     border-radius: 4px;
     padding: 4px 8px;
     line-height: 1.4;
-    
 }
