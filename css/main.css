@@ -151,5 +151,47 @@
 }
 
 #projeto-texto-principal{
+    font-size: 1,6rem;
+    color: #fff;
 
+}
+
+#formacao{
+    display: flex;
+    /* border: #000000; */
+    gap: 20px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 3rem;
+    
+}
+
+#quadro{
+    background: #000000;
+    color: #fff;
+    align-items:center;
+    text-align: center;
+}
+
+#quadro h6{
+    font-size: 1,7rem;
+}
+
+#quadro p{
+    font-size: 2rem;
+}
+
+#complementar{
+    color: #b9b8b8;
+}
+
+#extra{
+    gap: 20px;
+    margin: 0 auto;
+}
+#estudo{
+    display: flex;
+    color: #fff;
+    gap: 10px;
+    justify-content: space-between;
 }
