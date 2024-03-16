@@ -163,7 +163,9 @@
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 3rem;
-    
+    /* flex: 1; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
 }
 
 #quadro{
@@ -213,7 +215,8 @@ footer{
     padding: 8px 18px;
     font-weight: bold;
     /* padding: 4px; */
-    border-radius: 2px 6px;
+    border-radius: 1px 15px;
+    /* aredonda as pontas */
     /* color: #fff; */
     border: solid 1px blue;
     /* background-color: blue; */
