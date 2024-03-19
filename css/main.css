@@ -1,5 +1,22 @@
-main{
-    margin-inline-end: 0;
+.botaoinicio{
+    text-decoration: none;
+    color: #000;
+    background-color: white;
+    padding: 8px 18px;
+    font-weight: bold;
+    /* padding: 4px; */
+    border-radius: 1px 15px;
+    /* aredonda as pontas */
+    /* color: #fff; */
+    border: solid 1px blue;
+    /* background-color: blue; */
+    /* transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; */
+}
+
+button{
+    background: white;
+    border: 0;
+    font-size: 1.1rem;
 }
 
 .perfil{
@@ -208,6 +225,7 @@ main{
     font-size: 1.5rem;
     flex: 1;
     /* flex-grow: 1; */
+    /* é o mesmo comando que flex:1; define que todos os elementos vão ter o mesmo tamanho independente do conteudo */
 
 }
 
@@ -230,35 +248,16 @@ main{
     justify-content: space-between;
 }
 
-
-
-
-
-footer{
-    /* display: flex; */
-    margin-top: 0;
-    background: #023e73;
-    height: 100px;
-    text-align: center;
+#idioma{
+    /* text-transform: uppercase; */
+    gap:10px;
+    margin-top: 35px;
 }
 
-.botaoinicio{
-    text-decoration: none;
-    color: #000;
-    background-color: white;
-    padding: 8px 18px;
-    font-weight: bold;
-    /* padding: 4px; */
-    border-radius: 1px 15px;
-    /* aredonda as pontas */
-    /* color: #fff; */
-    border: solid 1px blue;
-    /* background-color: blue; */
-    /* transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease; */
+#idioma-lista{
+    color:#fff;
 }
 
-button{
-    background: white;
-    border: 0;
-    font-size: 1.1rem;
+#idioma-cinza{
+    color: #b9b8b8;
 }
