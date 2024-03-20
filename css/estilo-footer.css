@@ -1,17 +1,14 @@
 footer{
     padding: 40px;
     background: #b9b8b8;
-    text-align: center;
+    /* text-align: center; */
     /* align-items:normal; */
     
 }
 
-#rodape{
+#footer-conteudo{
     width: 1200px;
     margin: 0 auto;
-    background: rebeccapurple;
+    /* background: rebeccapurple; */
 }
 
-#contatos{
-    color:#202c73;
-}

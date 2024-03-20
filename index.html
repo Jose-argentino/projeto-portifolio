@@ -190,13 +190,24 @@
 
         <footer>
             <a class="botaoinicio" href="#menu"><button>INICIO</button></a></li>
-            <section id="rodape">
-                
+            <section id="footer-conteudo">
+                <form action="">
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    <input type="text" nane="telefone" id="telefone" placeholder="Telefone">
+                    <select name="tipo" id="tipo">
+                        <option value="Selecione" selected disabled>Selecione...</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="servicos">Serviços</option>
+                        <option value="sugestoes">Sugestões</option>
+                        <option value="contratar">Contratar</option>
+                        <!-- o valor de value é o que vai enviar - geralmente é um numero -->
+                    </select>    
+                    <button type="submit">Enviar</button>
+                    <!-- submit = ubimetre ou enviar, se for validar por js então ele nao pode ser submit -->
+                </form>
 
-                <div id="contatos">
-                    <H3>contatos</H3>
-                    <p id="contato-item">e-mail:</p>
-                </div>
+                
                 
             </section>
         </footer>
