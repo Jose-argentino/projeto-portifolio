@@ -1,14 +1,69 @@
 footer{
-    padding: 40px;
-    background: #b9b8b8;
+    /* padding: 40px; */
+    /* background: #b9b8b8; */
     /* text-align: center; */
     /* align-items:normal; */
-    
+    padding-top: 40px;
 }
 
 #footer-conteudo{
     width: 1200px;
     margin: 0 auto;
+    margin-top: 40px;
     /* background: rebeccapurple; */
+    /* color: #202d73; */
 }
 
+#form-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#form-grid input, select{
+    /* width: 100%; */
+    padding: 12px 20px;
+    border: solid #202c73;
+    border-radius: 4px;
+
+}
+
+.btn-contato{
+    width: 30%;
+    padding: 12px 20px;
+    background: #202c73;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px auto;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 4px;
+    display: grid;
+    
+}
+
+#footer-conteudo h2{
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #202c73;
+}
+
+
+#footer-inferior{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#footer-inferior div{
+    flex: 1;
+}
+
+#footer-inferior a{
+    padding: 10px;
+    display: flex;
+    
+}

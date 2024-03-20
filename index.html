@@ -20,7 +20,7 @@
                 <ul id="menu">
                     <li><a href="#projetos2">Projeto</a></li>
                     <li><a href="#cursos">Curso</a></li>
-                    <li><a href="#contatos">Contato</a></li>
+                    <li><a href="#footer-conteudo">Contato</a></li>
                 </ul>
            </nav>
            <!-- para indexar no buscador, onde fica o menu -->
@@ -190,23 +190,55 @@
 
         <footer>
             <a class="botaoinicio" href="#menu"><button>INICIO</button></a></li>
+            
             <section id="footer-conteudo">
+                <h2>Contato</h2>
                 <form action="">
-                    <input type="text" name="nome" id="nome" placeholder="Nome">
-                    <input type="email" name="email" id="email" placeholder="E-mail">
-                    <input type="text" nane="telefone" id="telefone" placeholder="Telefone">
-                    <select name="tipo" id="tipo">
-                        <option value="Selecione" selected disabled>Selecione...</option>
-                        <option value="duvida">Dúvida</option>
-                        <option value="servicos">Serviços</option>
-                        <option value="sugestoes">Sugestões</option>
-                        <option value="contratar">Contratar</option>
-                        <!-- o valor de value é o que vai enviar - geralmente é um numero -->
-                    </select>    
-                    <button type="submit">Enviar</button>
+                    <div id="form-grid">
+                        <input type="text" name="nome" id="nome" placeholder="Nome">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <input type="text" nane="telefone" id="telefone" placeholder="Telefone">
+                        <select name="tipo" id="tipo">
+                            <option value="Selecione" selected disabled>Selecione...</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="servicos">Serviços</option>
+                            <option value="sugestoes">Sugestões</option>
+                            <option value="contratar">Contratar</option>
+                            <!-- o valor de value é o que vai enviar - geralmente é um numero -->
+                        </select> 
+                    </div>   
+                    <button class="btn-contato" type="submit">Enviar</button>
                     <!-- submit = ubimetre ou enviar, se for validar por js então ele nao pode ser submit -->
                 </form>
 
+                
+                <div id="footer-inferior">
+                    <div>
+                        <ul>
+                            <li><a href="">email@gmeil.com</a></li>
+                            <li><a href="">github.com/thiagomalber</a></li>
+                            <li><a href="">linkedin.com/thiagomalber</a></li>
+                            <li></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <il>
+                            <li><a href="">WhatsApp</a></li>
+                            <li><a href="">(19)998714507</a></li>
+
+                        </il>
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li><a href="">Facebook</a></li>
+                            <li><a href="">Instagran</a></li>
+                            <li><a href="">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
                 
                 
             </section>
