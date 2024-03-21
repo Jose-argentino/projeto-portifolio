@@ -47,23 +47,48 @@ footer{
     text-transform: uppercase;
     text-align: center;
     color: #202c73;
+    letter-spacing: 1.2rem;
+    /* espaçoentre as letras */
 }
+
 
 
 #footer-inferior{
-    display: flex;
-    gap: 10px;
-    text-align: center;
-    align-items: center;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    /* text-align: center; */
+    /* align-items: center; */
+    padding: 20px 0;
 }
 
 #footer-inferior div{
-    flex: 1;
+    /* background: #202c73; */
 }
 
 #footer-inferior a{
     padding: 10px;
-    display: flex;
-    
+    text-decoration: none;
+    color: #000;  
+}
+
+li{
+    list-style-type: none;
+}
+
+#footer-inferior a:haver{
+    color: #000000a6;
+}
+
+#alinhado-direita{
+    text-align: right;
+}
+
+#alinhado-centro{
+    text-align: center;
+}
+
+#copy{
+    padding: 20px 0;
+    text-align: center;
 }
