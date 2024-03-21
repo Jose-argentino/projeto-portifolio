@@ -4,6 +4,8 @@ footer{
     /* text-align: center; */
     /* align-items:normal; */
     padding-top: 40px;
+    min-height: 100vh;
+    /* o item pega no minimo 100% da tela , não pode ter margem top ou end */
 }
 
 #footer-conteudo{
@@ -51,7 +53,11 @@ footer{
     /* espaçoentre as letras */
 }
 
+#form-grid option{
+    font-size: 1.2rem;
+}
 
+/* inicio do footer inferior */
 
 #footer-inferior{
     display: grid;
@@ -74,6 +80,7 @@ footer{
 
 li{
     list-style-type: none;
+    padding: 10px;
 }
 
 #footer-inferior a:haver{
@@ -92,3 +99,11 @@ li{
     padding: 20px 0;
     text-align: center;
 }
+
+/* 
+#seta{
+    padding:15px 15px;
+  background:rgba(0,0,0,0.2);
+  position:fixed;
+  right: 200px;
+}*/

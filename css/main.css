@@ -38,6 +38,8 @@ button{
     align-items: center;
     /* centraliza os elementos filho na vertical */
     margin: 0 auto;
+    min-height: 80vh;
+    /* o item pega no minimo 80% da tela , não pode ter margem top ou end */
 }
 
 #perfil-dados >h1 {
@@ -67,6 +69,10 @@ button{
     margin: 0 auto;
     gap: 110px;
     align-items: center;
+    min-height: 100vh;
+    /* o item pega no minimo 100% da tela , não pode ter margem top ou end */
+    padding-bottom: 20px;
+    /* para nao grudar no de baixo por causa do vh */
 }
 
 #projetos2 h2{
@@ -151,8 +157,10 @@ button{
 #cursos{
     background: #023e73;
     /* height: 300px; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
     /* separar um pouco do elemento de cima */
+    min-height: 100vh;
+    /* o item pega no minimo 100% da tela , não pode ter margem top ou end */
 }
 
 #cursos-principal{
@@ -172,6 +180,7 @@ button{
   max-width: 4ch;
   /* ch = caracter */
   text-transform: uppercase;
+  align-items: center;
 }
 
 #cursos-conteudo{

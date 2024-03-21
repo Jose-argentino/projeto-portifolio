@@ -17,6 +17,8 @@ header{
     margin-top: 5px;
     /* colocou uma margem dentro do elemento para descolar o logo do topo da pagina */
     /* background-color: #797474; */
+    min-height: 20vh;
+    /* o item pega no minimo 20% da tela , não pode ter margem top ou end */
 }
 
 header > img{

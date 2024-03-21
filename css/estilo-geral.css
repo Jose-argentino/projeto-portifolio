@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    /* efeito de rolagem lenta */
 }
 
 body{
