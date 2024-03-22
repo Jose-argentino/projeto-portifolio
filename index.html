@@ -195,8 +195,8 @@
                 <h2>Contato</h2>
                 <form action="">
                     <div id="form-grid">
-                        <input type="text" name="nome" id="nome" placeholder="Nome">
-                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <input type="text" name="nome" id="nome" placeholder="Nome*">
+                        <input type="email" name="email" id="email" placeholder="E-mail*">
                         <input type="text" nane="telefone" id="telefone" placeholder="Telefone">
                         <select name="tipo" id="tipo">
                             <option value="Selecione" selected disabled>Selecione...</option>
@@ -207,8 +207,20 @@
                             <!-- o valor de value é o que vai enviar - geralmente é um numero -->
                         </select> 
                     </div>   
-                    <button class="btn-contato" type="submit">Enviar</button>
-                    <!-- submit = ubimetre ou enviar, se for validar por js então ele nao pode ser submit -->
+
+
+                    <textarea name="msg" id="msg" placeholder="Digite aqui a sua mensagem."></textarea>
+                    <!-- campo para digitar uma mensagem livremente -->
+
+
+                    <p id="form-aviso">* Campos obrigatórios</p>
+                    <button class="btn-contato" type="button" onclick="enviarContato()">Enviar</button>
+                    <!-- 
+                        o type=submit = ubimetre ou enviar, se for validar por js então ele nao pode ser submit.
+                        já o type=button é para passar para o JS antes de enviar .
+                        o onclick chama o JS.
+                    -->
+                
                 </form>
 
 
@@ -244,6 +256,16 @@
                 </div>-->
             </section>
         </footer>
- 
+    
+
+
+    <script>
+        // os script por padrão, fica antes de fechar o body, por se não carrregar p html e css não faz sentido carregar o JS
+       function enviarContato() {
+        alert('Olá mundo')
+       }
+
+    </script>
+    
 </body>
 </html>

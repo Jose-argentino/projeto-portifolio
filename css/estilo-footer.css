@@ -41,7 +41,8 @@ footer{
     font-weight: bold;
     border-radius: 4px;
     display: grid;
-    
+    cursor: pointer;
+    /* faz o botão comportar ccomo um link */
 }
 
 #footer-conteudo h2{
@@ -99,6 +100,33 @@ li{
     padding: 20px 0;
     text-align: center;
 }
+
+#msg{
+    width: 100%;
+    min-height: 200px;
+    margin-top: 10px;
+    padding: 12px 20px;
+    border: 1px solid #202c73;
+    border-radius: 4px;
+}
+
+#form-aviso{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: #6e6d6d;
+}
+
+
+
+.borda-erro{
+    border: 1px solid red in !important;
+}
+
+.borda-original{
+
+}
+
 
 /* 
 #seta{
