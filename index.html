@@ -199,7 +199,7 @@
                         <input type="email" name="email" id="email" placeholder="E-mail*">
                         <input type="text" nane="telefone" id="telefone" placeholder="Telefone">
                         <select name="tipo" id="tipo">
-                            <option value="Selecione" selected disabled>Selecione...</option>
+                            <option value="" selected disabled>Selecione*...</option>
                             <option value="duvida">Dúvida</option>
                             <option value="servicos">Serviços</option>
                             <option value="sugestoes">Sugestões</option>
@@ -214,6 +214,10 @@
 
 
                     <p id="form-aviso">* Campos obrigatórios</p>
+
+                    <div id='div-form-alerta'></div>
+
+
                     <button class="btn-contato" type="button" onclick="enviarContato()">Enviar</button>
                     <!-- 
                         o type=submit = ubimetre ou enviar, se for validar por js então ele nao pode ser submit.
@@ -259,6 +263,7 @@
     
 
     <!-- Os script por padrão, fica antes de fechar o body, por se não carrregar p html e css não faz sentido carregar o JS -->
+    
     <script type="text/javascript" src="/js/script-form.js"></script>
     
 </body>
