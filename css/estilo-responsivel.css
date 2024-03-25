@@ -1,0 +1,29 @@
+/* criação do responsivel */
+/* o css abaixo sera acessado se o dispositivo tiver tela ou largura menor que 600px */
+/* fonte: w3 media query - aqui vai a diferença de layout*/
+/* no HTML TEM DE TER <meta name="viewport" content="width=device-width, initial-scale=1.0"> */
+@media only screen and (max-width: 768px) {
+    header{
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+        padding: 10px;
+    }
+
+    header ul{
+        padding: 0%;
+        margin: 0%;
+    }
+
+    #menu{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        /* display: none; */
+    }
+
+
+
+
+
+}
