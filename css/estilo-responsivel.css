@@ -29,7 +29,7 @@
 
     .perfil{
         width: 100%;
-        min-height: auto;
+        height: auto;
         /* height: auto; */
         /* display: grid; */
         /* grid-template-columns: 1fr 2fr; */
@@ -68,7 +68,38 @@
     }
 
     #cursos-lista{
-        display: flex;
-        flex-direction: column;
+        /* display: flex;*/
+        flex-direction: column; 
+        flex-wrap: wrap;
+        padding: 5px;
+
+    }
+
+    #cursos-principal h2{
+        word-break: normal;
+        font-size: 4rem;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    #cursos-complementar, #idioma{
+        padding: 10px;
+    }
+
+    #footer-conteudo{
+        width: 100%;
+        padding: 10px;
+        
+    }
+
+    #form-grid input{
+        width: 100%;
+    }
+
+    #footer-conteudo h2{
+        font-size: 4rem;
+        text-align: center;
+        max-width: 100%;
+        letter-spacing: normal;
     }
 }
